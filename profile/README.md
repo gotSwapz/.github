@@ -52,7 +52,7 @@ They have been deployed to Mumbai and the Polygon mainnet.
 
 The client application has been built with **React** and **Tailwind CSS**.
 
-It is hosted in **Filecoin** though **Fleek**.
+It is hosted in **IPFS** though **Fleek**.
 
 ## Back end :electric_plug:
 
