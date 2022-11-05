@@ -18,17 +18,17 @@
 
 ![diagram](images/diagram.png)
 
-## Create a collection :flower_playing_cards:
+## :flower_playing_cards: Create a collection
 
 Anyone can create a collection through the factory contract, especifiying its **name**, a **URI** for the metadata of the NFTs, the **size and price for each package** and a **rarity** value for each NFT that will determine likelihood of receiving it in a package.
 
 When a package of the collection is sold, the owner of the collection gets the amount Matic payed by the buyer, minus a **service fee** established in the creation of the collection.
 
-## Buy items :shopping_cart:
+## :shopping_cart: Buy items
 
 Each collection can have one or more package sizes with different prices. To buy a package users call the collection contract specifiying the **size of the package** and sending required **amount of Matic** to purchase it. The order is forwarded to the factory contract, that will **request random words to Chainlink**. Once the random words are returned, they are sent back to the collection contract, where the **NFTs for the package that the user receives are chosen randomly and proportionally to the rarity** of each NFT.
 
-## Swap items :handshake:
+## :handshake: Swap items
 
 NFT owners will probably receive duplicated NFTs when they buy a package, so they can swap their NFTs with other users for **free** (paying just the gas fees). To do so a user can create a swap offer to another user, indicating the NFTs that are offered and the NFTs of the other user that they want in return.
 
@@ -38,7 +38,7 @@ The receiver of a swap offer can **accept** it or **reject** it and the creator 
 
 ![architecture](images/stack.png)
 
-## Smart contracts :scroll:
+## :scroll: Smart contracts
 
 The smart contracts are written in **Solidity** and **Foundry** has been used for testing and deployment.
 
@@ -54,22 +54,22 @@ They have been deployed to Mumbai and the Polygon mainnet.
 | Mainnet | [0x5d7addd96b0ca979b86e5eeb34b45b21cd671027](https://polygonscan.com/address/0x5d7addd96b0ca979b86e5eeb34b45b21cd671027#code)        |
 |         |                                                        |
 
-## Front end :desktop_computer:
+## :desktop_computer: Front end
 
 The client application has been built with **React** and **Tailwind CSS**.
 
 It is hosted in **IPFS** though **Fleek**.
 
-## Back end :electric_plug:
+## :electric_plug: Back end
 
 The backend is a **NodeJS** application built with **Express.js**.
 
 It is hosted in **AWS** with its **Elastic Beanstalk** service.
 
-## Database :file_cabinet:
+## :file_cabinet: Database
 
 Object-relational **PostgreSQL** database, managed with **AWS RDS** service.
 
-## NFT storage :floppy_disk:
+## :floppy_disk: NFT storage
 
 The NFTs metadata and media files are stored in **IPFS** with **NFT.Storage**.
