@@ -20,13 +20,13 @@
 
 ## :flower_playing_cards: Create a collection
 
-Anyone can create a collection through the factory contract, especifiying its **name**, a **URI** for the metadata of the NFTs, the **size and price for each package** and a **rarity** value for each NFT that will determine likelihood of receiving it in a package.
+Anyone can create a collection through the factory contract, specifying its **name**, a **URI** for the metadata of the NFTs, the **size and price for each package** and a **rarity** value for each NFT that will determine the likelihood of receiving it in a package.
 
-When a package of the collection is sold, the owner of the collection gets the amount Matic payed by the buyer, minus a **service fee** established in the creation of the collection.
+When a package of the collection is sold, the owner of the collection gets the amount Matic paid by the buyer, minus a **service fee** established in the creation of the collection.
 
 ## :shopping_cart: Buy items
 
-Each collection can have one or more package sizes with different prices. To buy a package users call the collection contract specifiying the **size of the package** and sending required **amount of Matic** to purchase it. The order is forwarded to the factory contract, that will **request random words to Chainlink**. Once the random words are returned, they are sent back to the collection contract, where the **NFTs for the package that the user receives are chosen randomly and proportionally to the rarity** of each NFT.
+Each collection can have one or more package sizes with different prices. To buy a package users call the collection contract specifying the **size of the package** and sending the required **amount of Matic** to purchase it. The order is forwarded to the factory contract, which will **request random words to Chainlink**. Once the random words are returned, they are sent back to the collection contract, where the **NFTs for the package that the user receives are chosen randomly and proportionally to the rarity** of each NFT.
 
 ## :handshake: Swap items
 
@@ -44,7 +44,7 @@ The smart contracts are written in **Solidity** and **Foundry** has been used fo
 
 The NFTs use the **ERC1155** standard.
 
-**Chainlink VRF** service is used to achieved randomness.
+**Chainlink VRF** service is used to achieve randomness.
 
 They have been deployed to Mumbai and the Polygon mainnet.
 
