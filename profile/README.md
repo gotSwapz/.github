@@ -8,6 +8,12 @@
 
 **Users can also exchange their NFTs with other users in order to complete a collection.**
 
+![screenshot](images/screenshot.png)
+
+**Live app**: https://www.gotswapz.online
+
+**Alternative link**: https://falling-flower-1161.on.fleek.co
+
 # :large_blue_diamond: How it works
 
 ![diagram](images/diagram.png)
