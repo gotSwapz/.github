@@ -8,7 +8,7 @@
 
 **Users can also exchange their NFTs with other users in order to complete a collection.**
 
-[![video](/profile/images/video.png)](https://youtu.be/6igufetjgv4)
+[![video](/profile/images/video.jpg)](https://youtu.be/6igufetjgv4)
 
 **Live app**: https://www.gotswapz.online
 
