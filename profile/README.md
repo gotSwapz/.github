@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/logo_full.png" title="gotSwapz logo">
+  <img src="/profile/images/logo_full.png" title="gotSwapz logo">
 </p>
 
 **A project for the Polygon blockchain that consists of a factory contract that can be used to create new NFT collections.**
@@ -8,7 +8,7 @@
 
 **Users can also exchange their NFTs with other users in order to complete a collection.**
 
-![screenshot](images/screenshot.png)
+[![screenshot](/profile/images/video.png)](https://youtu.be/6igufetjgv4)
 
 **Live app**: https://www.gotswapz.online
 
@@ -16,7 +16,7 @@
 
 # :large_blue_diamond: How it works
 
-![diagram](images/diagram.png)
+![diagram](/profile/images/diagram.png)
 
 ## :flower_playing_cards: Create a collection
 
@@ -36,7 +36,7 @@ The receiver of a swap offer can **accept** it or **reject** it and the creator 
 
 # :large_blue_diamond: Architecture
 
-![architecture](images/stack.png)
+![architecture](/profile/images/stack.png)
 
 ## :scroll: Smart contracts
 
